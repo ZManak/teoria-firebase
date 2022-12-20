@@ -1,0 +1,1 @@
+Firebase emula un backend sin necesidad de implementarlo.
