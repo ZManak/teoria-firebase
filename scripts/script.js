@@ -28,7 +28,7 @@ const printPhoto = (title, url, docId) => {
 };
 //Create
 const createPicture = (user) => {
-    db.collection("album")
+    db.collection("album") //crea una colección en Firebase
         .add(user)
         .then((docRef) => {
             console.log("Document written with ID: ", docRef.id)
