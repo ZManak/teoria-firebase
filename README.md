@@ -38,3 +38,8 @@ A través de JS (ver scripts.js) pueden crearse colecciones, añadirles álbumes
 
 [Documentación Firestore](https://firebase.google.com/docs/firestore?authuser=0&hl=es) => Consultar la configuración de Web versión 8
 
+- - - - - - - -
+### Authentication
+
+La ventaja de una arquitectura serverless es que si se produce un fallo de autenticación (filtración de datos, etc), el problema legal es cosa del proveedor del servicio.
+
